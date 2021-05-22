@@ -17,7 +17,7 @@ Constraints:
 
 • You must work with the following subset of HTML tags only, not every tag! This mandatory subset is {html, head, body, title, h1, h2, h3, p, ul, li, a, div, br, hr}. Don’t include any other tags.
 
-• A <div> tag cannot be nested inside a <p> tag, and a <p> tag cannot be nested inside a <p> tag. A <div> tag can nest inside another <div>.
+•A <div> tag cannot be nested inside a <p> tag, and a <p> tag cannot be nested inside a <p> tag. A <div> tag can nest inside another <div>.
   
 • <br> is one of the few tags that doesn’t have a closing tag, so documents can contain just <br>. Similarly for <hr>.
 
