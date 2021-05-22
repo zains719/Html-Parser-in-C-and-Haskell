@@ -17,17 +17,17 @@ Constraints:
 
 • You must work with the following subset of HTML tags only, not every tag! This mandatory subset is {html, head, body, title, h1, h2, h3, p, ul, li, a, div, br, hr}. Don’t include any other tags.
 
-•A <div> tag cannot be nested inside a <p> tag, and a <p> tag cannot be nested inside a <p> tag. A <div> tag can nest inside another <div>.
+• A div tag cannot be nested inside a p tag, and a p tag cannot be nested inside a p tag. A div tag can nest inside another div.
   
-• <br> is one of the few tags that doesn’t have a closing tag, so documents can contain just <br>. Similarly for <hr>.
+• br is one of the few tags that doesn’t have a closing tag, so documents can contain just br. Similarly for hr.
 
-• Any attributes in an opening tag are ignored. For example, in <div class=”text”> the class attribute is ignored.
+• Any attributes in an opening tag are ignored. For example, in div class=”text” the class attribute is ignored.
   
-• The <title> tag is included in the head section between the head tags only, and not in the body section between the body tags.
+• The title tag is included in the head section between the head tags only, and not in the body section between the body tags.
   
 • A DOCTYPE at the start of the document is not required.
 
-• Assume there are no comments (<!-- -->) or entities (e.g., &lt; to represent <) in the HTML document.
+• Assume there are no comments or entities in the HTML document.
                                                                                   
 • Assume that the ‘<’ and ‘>’ characters are used only as part of the HTML tags, and do not appear in the text within p, h1, h2, h3, or any other sections, or in attribute values.
   
